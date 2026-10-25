@@ -4,6 +4,10 @@
 
 A tiny macOS menu-bar notepad. Press ⌘E anywhere, jot something down, press ⌘E again. It's saved, and it's still there next time. No windows, no files, no accounts, no sync.
 
+https://github.com/user-attachments/assets/55f1b6e0-7789-46d5-a5d1-7bb6e9d69fce
+
+*A new API key that you'll only see once: ⌘E, paste it into the note, ⌘E. A minute later in another app: ⌘E, copy it back out, ⌘E, paste, connected.*
+
 ## Why
 
 Notes apps make you create a note, name it, and pick a folder. Most of the time you just need somewhere to drop a code, a link or a snippet *right now*. Forever Note is that one place.
