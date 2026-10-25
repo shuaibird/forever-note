@@ -95,6 +95,8 @@ final class NoteViewController: NSViewController, NSTextViewDelegate {
     func saveNow() {
         saveWork?.cancel()
         saveWork = nil
+        // The text is only loaded with the view; before the first open there's nothing to save.
+        guard isViewLoaded else { return }
         NoteStore.save(textView.string)
     }
 }
